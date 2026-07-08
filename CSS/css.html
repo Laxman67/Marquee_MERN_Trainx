@@ -11,9 +11,8 @@
     <!-- Internal CSS -->
     <style>
       /* Universal  */
-      /* * {
-        color: white;
-      } */
+      * {
+      }
 
       /* Type or Name Selector */
       ul {
@@ -23,7 +22,6 @@
       /* class Selector : .classname */
       .formatting {
         background-color: bisque;
-        font-family: cursive;
         color: aqua;
       }
       /* ID Selector : #id */
@@ -37,14 +35,13 @@
       p,
       #link,
       .formatting {
-        font-family:
-          'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
       /* Descendant Selector: Select child element inside the parent element */
       ul li {
-        color: black;
+        color: #123eff;
         background-color: azure;
+        font-size: larger;
+        text-decoration: underline;
       }
 
       /* Child Selector:Direct Children */
@@ -60,21 +57,27 @@
         background-color: red;
       }
       /* element[key="value"] */
-      h2[class=''] {
-        color: rgb(247, 94, 12);
-      }
 
       /* Pseudo Classes : Element Selector */
       a:hover {
         color: red;
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
         font-weight: 900;
+      }
+      h2 {
+        width: 300px;
+        height: 100px;
+        color: rgb(26, 24, 24);
+        background-color: #f75759;
+        /* padding: 20px; */
+        padding: 20px 10px;
+        margin-top: 20px;
+        border: 10px dotted rgb(17, 16, 16);
       }
     </style>
   </head>
   <body>
-    <h2 class="">Heading Level 2</h2>
+    <h2>Heading Level 2</h2>
     <!-- Inline CSS : Opening tag of an element -->
     <h3 id="heading">Types of CSS :</h3>
     <p class="formatting">
@@ -87,17 +90,26 @@
       <li>External CSS</li>
     </ul>
 
-    <a href="#" id="link">Click here</a>
-
     <section>
       <div>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia,
-          non ad molestiae sit temporibus incidunt esse. Soluta iusto commodi
-          natus at.
+          Lorem
+          <a
+            href="#"
+            id="link"
+            style="
+              background-color: #f75759;
+              width: auto;
+              height: 20px;
+              visibility: hidden;
+            "
+            >Click here</a
+          >
+          ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, non ad
+          molestiae sit temporibus incidunt esse. Soluta iusto commodi natus at.
         </p>
       </div>
-      <p>
+      <p style="font-family: 'Playwrite GB S Guides', cursive">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
         perspiciatis quos assumenda!
       </p>
