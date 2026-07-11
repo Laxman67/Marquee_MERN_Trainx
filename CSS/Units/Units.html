@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Units in HTML</title>
+
+    <style>
+      :root {
+        --box-sizing: border-box;
+        --text-color: rgb(50, 45, 45);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: var(--box-sizing);
+      }
+      html {
+        color: var(--text-color);
+        font-size: 10px;
+      }
+      #container {
+        margin: 100px;
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+        font-size: 3em;
+        /* Default */
+        box-sizing: border-box;
+        padding: 10px;
+        border: 2px solid;
+
+        /* Padding: 20px */
+        /* Border: 4px  */
+        /* Height: 76px */
+        /* 20+4+76=100 */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="child">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut
+          perspiciatis doloremque optio velit, eaque officia? Magni amet
+          deleniti quo asperiores similique!
+        </p>
+        <p>
+          <i class="fa-brands fa-whatsapp" style="color: rgb(14, 128, 4)"></i>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

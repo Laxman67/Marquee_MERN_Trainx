@@ -1,0 +1,21 @@
+Understanding BEM Methodology in CSS
+
+BEM (Block-Element-Modifier) is a CSS methodology designed to improve code maintainability, scalability, and readability, especially in large-scale projects. It organizes CSS into independent, reusable modules,
+========================
+Using classname and Id's
+=====================
+
+
+Key Concepts In BEM
+
+
+Block: Represents a standalone entity or component, such as a header, button, or form.
+Blocks are the highest-level abstraction in BEM. (Specially Container element)
+
+
+
+
+Element: Represents a part of a block that performs a specific function
+ Elements are dependent on their parent block and are denoted using a **double underscore** (__).
+
+
