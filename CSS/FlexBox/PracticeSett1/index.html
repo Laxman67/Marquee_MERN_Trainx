@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      .card-container {
+        width: 400px;
+        height: 400px;
+        margin: 100px;
+        border-radius: 20px;
+        /*  */
+        overflow: hidden;
+        background-color: aquamarine;
+        padding: 30px;
+      }
+      .card-header {
+        position: relative;
+      }
+      .quote-box {
+        /*  */
+        background-color: blue;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+
+        /*  */
+        position: absolute;
+        top: -60px;
+        right: -60px;
+      }
+      .quote-box > img {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card-header">
+        <div class="quote-box">
+          <img
+            src="https://cdn.creazilla.com/icons/3242265/quote-icon-md.png"
+            alt=""
+            srcset=""
+            height="30px"
+          />
+        </div>
+        <h4>John Miler</h4>
+        <p>Software Architect</p>
+        <p>⭐⭐⭐⭐⭐</p>
+      </div>
+    </div>
+  </body>
+</html>
