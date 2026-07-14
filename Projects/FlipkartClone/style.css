@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+GB+S+Guides:ital@0;1&display=swap');
+
+:root {
+  /* Btns */
+  --btn-flipkart-bgcolor: #ffe51f;
+  --btn-travel-bgcolor: #f0f0f0;
+  --btn-padding: 10px 20px;
+  --btn-border-radius: 12px;
+  --btn-width: 100px;
+
+  /* Navbar */
+  --navbar-top-font-family: 'Inter', sans-serif;
+  /* footer */
+  --footer-fontsize: 12px;
+  --footer-font-family: 'Inter', sans-serif;
+  --footer-font-weight: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+header,
+main {
+  width: 80vw;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+header {
+  height: 100px;
+  padding-top: 1rem;
+}
+
+main {
+  height: 80vh;
+  background-color: rgb(172, 185, 185);
+}
+
+button {
+  padding: var(--btn-padding);
+  border-radius: var(--btn-border-radius);
+  border: none;
+  margin: 5px;
+}
+
+.flipkart-btn {
+  background-color: var(--btn-flipkart-bgcolor);
+}
+
+.flipkart-btn a,
+.travel-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.flipkart-btn a img,
+.travel-btn a img {
+  width: 50px;
+}
+
+.travel-btn {
+  background-color: var(--btn-travel-bgcolor);
+}
+
+#header-top-nav {
+  margin: auto 1rem;
+  display: flex;
+  justify-content: space-between;
+}
