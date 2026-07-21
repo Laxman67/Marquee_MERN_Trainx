@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  width: 85vw;
+  height: 100vh;
+  /* background-color: aquamarine; */
+  margin: 0 auto;
+}
+
+#brands-container {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  overflow-x: scroll;
+}
+
+#brands-container-items #para .cl {
+  /* This property tell that this Element wants atleast this width */
+  min-width: 30%;
+  padding: 10px;
+
+  /* to make the discount text on image tag */
+  position: relative;
+}
+.brands-container-items > p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-weight: 800;
+  color: white;
+}
+.brands-container-items img {
+  /* Fits the img in container with parent width */
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* Footer */
+footer {
+  width: 100vw;
+  background-color: rgb(38, 37, 37);
+  color: rgb(221, 213, 213);
+  display: flex;
+}
+
+#footer-item-top {
+  width: 100%;
+  display: flex;
+}
+#footer-item-top-left {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+ul {
+  margin-top: 1rem;
+}
+ul li {
+  list-style-type: none;
+}
